@@ -1,0 +1,9 @@
+nav{
+    display: inline-flex;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
