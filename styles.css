@@ -137,22 +137,25 @@ section{
 
 }
 
-.profile-image{
+.section_pic-container{
     display: flex;
     height: 400px;
     width: 400px;
     margin:auto 0;}
 
-.profile-text{
+.section_text{
     align-self: center;
     text-align: center;
 }
 
-.profile-text p{
+.section_text p{
     font-weight: 600;
 }
+.section_text_p1{
+    text-align: center;
+}
 
-.profile-text-p1{
+.section_text_p2{
     text-align: center;
     font-size: 1.75rem;
     margin-bottom: 1rem;
@@ -194,6 +197,27 @@ section{
     border: rgb(53, 53,53) 0.1rem solid;
 }
 
-.cv-btn:hover, .contact-btn:hover{
+.cv-btn:hover, 
+.contact-btn:hover{
     cursor: pointer;   
+}
+.cv-btn, 
+.contact-btn:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.cv-btn:hover{
+    background: rgb(0,0,0)
+}
+
+.contact-btn{
+    background: none;
+}
+.contact-btn:hover{
+    border: rgb(255,255,255) 0.1rem solid;
+}
+
+.btn-container{
+    gap: 1rem;
 }
