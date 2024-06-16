@@ -21,7 +21,13 @@
     #experience, .experience-details-container{
         margin-top:2rem;
     }
-    #profile .section-container{
+    a:hover{
+        color: grey;
+        font-size: 1rem;
+        text-decoration-color: rgb(181, 181, 181);
+    }
+    #profile, 
+    .section-container{
         display:block;
     }
     .arrow{
