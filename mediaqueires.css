@@ -6,6 +6,10 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    #contact,
+  #projects {
+    height: fit-content;
+  }
 }
 
 
@@ -86,8 +90,8 @@
         text-align: center;
     }
     .section_pic-container{
-        height: 46vw;
         width: auto;
+        height: 46vw;
         justify-content: center;
     }
     .section_text_p2{
@@ -97,6 +101,6 @@
         font-size: 2rem;
     }
     .text-container{
-        text-emphasis: justify;
+        text-align: justify;
     }
 }
